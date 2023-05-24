@@ -1,6 +1,5 @@
 from django.db import models
 
-# Create your models here.
 class Category(models.Model):
     name = models.CharField('Categories', max_length=50)
     slug = models.SlugField(max_length = 50)
